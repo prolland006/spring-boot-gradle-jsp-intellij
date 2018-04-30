@@ -36,5 +36,8 @@ dependencies {
     providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
     providedRuntime('org.apache.tomcat.embed:tomcat-embed-jasper')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile 'com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.7.0'
 }
+
+
 
